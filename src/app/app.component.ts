@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'teste-angular'
-  name = 'Carlos'
-  idade = 28
+  title: string = 'teste-angular'
+  name: string = 'Carlos'
+  idade: number = 28
 
-  names = ['Carlos', 'Danielle', 'Sophia']
+  names: string[] = ['Carlos', 'Danielle', 'Sophia']
 
-  nameMan= this.names[0].toUpperCase()
+  nameMan: string = this.names[0].toUpperCase()
 
   people = [
     {name: 'Carlos', age: 28},
