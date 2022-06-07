@@ -1,6 +1,7 @@
 <div class="class">
 
   <div *ngIf="canShow">Estamos mostrado isso pq foi permitido!</div>
+
   <h3 *ngIf='name === "Carlos"; else nameNotFound' >O nome permitido é Carlos</h3>
 
   <ng-template #nameNotFound>
@@ -8,5 +9,13 @@
       <h3>Se a variável name for 'Carlos' vai aparecer uma div aqui em cima, se não essa div aparece aqui!</h3>
     </div>
   </ng-template>
+
+  <button (click)="showDiv()">
+    Mostrar div
+  </button>
+  <button (click)="showName()">
+    Alterar nome
+  </button>
+  
 
 </div>
