@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EmitindoComponent } from './components/emitindo/emitindo.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponentComponent,
     DirectivesComponent,
-    IfRenderComponent
+    IfRenderComponent,
+    EmitindoComponent,
+    ChangeNumberComponent
   ],
   imports: [
     BrowserModule,
